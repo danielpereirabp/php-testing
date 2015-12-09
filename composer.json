@@ -1,0 +1,21 @@
+{
+    "name": "danielpereirabp/php-testing",
+    "authors": [
+        {
+            "name": "Daniel Pereira",
+            "email": "danielpereirabp@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "mockery/mockery": "^0.9.4",
+        "phpunit/phpunit": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPTesting\\": [
+                "src",
+                "tests"
+            ]
+        }
+    }
+}
